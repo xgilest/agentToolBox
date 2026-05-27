@@ -1,0 +1,27 @@
+{
+  "name": "pi-ddd-contexts",
+  "version": "0.1.0",
+  "description": "Pi extension for DDD bounded-context planning memory under .planning/contexts.",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "ddd",
+    "bounded-contexts"
+  ],
+  "files": [
+    "extensions",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "license": "MIT"
+}
